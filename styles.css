@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+.img-container h3{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    background-color: red;
+}
+/* for image 1 */
+
+.form-container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    display: none;
+}
+
+/* .form-container div{
+    padding: 20px;
+} */
+
+.form-container label{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.form-container input{
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.form-container #submit{
+    background-color: red;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* for image 2 */
+
+#user-details, #coupon, #congrats, #badluck{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    display: none;
+}
+
+/* for image 3 */
+#dice{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    display: none;
+}
+
+#dice button {
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+}
+
+#image2-container, #image3-container, #image4-container{
+    pointer-events: none;
+}

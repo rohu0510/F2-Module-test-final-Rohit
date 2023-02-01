@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="gallery">
+        <div class="img-container">
+            <h3>Create Profile</h3>
+            <img id="image1"
+                src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+                alt="Image 1">
+        </div>
+        <div class="img-container" id="image2-container">
+            <h3>Get Profile</h3>
+            <img id="image2" src="https://blog.shift4shop.com/hubfs/iStock-502276753.png" alt="Image 2">
+        </div>
+        <div class="img-container" id="image3-container">
+            <h3>Roll Dice</h3>
+            <img id="image3"
+                src="https://www.shutterstock.com/image-vector/dice-cube-casino-game-black-260nw-1663698937.jpg"
+                alt="Image 3">
+        </div>
+        <div class="img-container" id="image4-container">
+            <h3>Get Token</h3>
+            <img id="image4" src="https://www.tokenfactory.com/Tokens.png" alt="Image 4">
+        </div>
+    </div>
+    <!-- image 1 form container start -->
+    <div id="form" class="form-container">
+        <form>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter Your Name: " required>
+            <br><br>
+
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter Your Email: " required>
+            <br><br>
+
+
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Enter Your username: " required>
+            <br><br>
+
+
+            <input type="submit" id="submit" value="Submit" onclick="nextimg()">
+
+        </form>
+    </div>
+    <!-- image 1 form container end -->
+
+    <!-- image 2 user details container start -->
+    <div id="user-details">
+        <p id="greet-user">User details</p>
+        <h3 id="gotoimg3"></h3>
+    </div>
+    <!-- image 2 user details container start -->
+
+    <!-- image 3 roll dice container start -->
+    <div id="dice">
+        <p id="random"></p>
+        <button id="roll">Roll The Dice</button>
+    </div>
+    <!-- image 3 roll dice container start -->
+
+    <!-- image 4 conclusion section start -->
+    <div id="coupon">
+        <h1 id="code" style="color: red;"></h1>
+    </div>
+
+    <div id="congrats">
+        <h3 id="congMess">Congrats, you scored greater than 10!</h3>
+        <p id="getTokenL">Click to "Get Token" Image to get Token</p>
+        <img src="https://t3.ftcdn.net/jpg/01/33/08/02/360_F_133080263_bYBEgnI4ycTfMFvIa0uLXffNWsyBUTUv.jpg"
+            alt="Congratulations">
+    </div>
+
+    <div id="badluck">
+        <p>Bad luck, TRY AGAIN!</p>
+    </div>
+    <!-- image 4 conclusion section start -->
+    <script src="script.js"></script>
+</body>
+
+</html>
